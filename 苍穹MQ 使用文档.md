@@ -171,11 +171,11 @@ public class DemoConsumer implements MessageConsumer {
 
 ### 消息重试机制
 
-![消息重试成功](E:\screenshot\XJHPtVqCmiTzpyG.png)
+![消息重试成功](https://s2.loli.net/2024/11/04/2QyzWHXTOxKqGnF.png)
 
 生产者发送一个异常过去。
 
-![设置resources目录](E:\screenshot\IN9oFuiqJYOP4wj-1730711232516-3.png)
+![设置resources目录](https://s2.loli.net/2024/11/04/AjWq5eN8BE1OUyZ.png)
 
 ### 死信队列配置
 
@@ -206,7 +206,7 @@ public class DemoConsumer implements MessageConsumer {
 
 确保您的资源文件放在这个目录下，IDE将会自动将这些资源文件包含在构建的输出中。
 
-![RabbitMQ地址](E:\screenshot\xrAb3SptuCUg4BG.png)
+![RabbitMQ地址](https://s2.loli.net/2024/11/04/YIUulEHJXf3g8Ai.png)
 
 ### RabbitMQ地址
 
@@ -214,7 +214,7 @@ public class DemoConsumer implements MessageConsumer {
 
 **A:** RabbitMQ地址为`ip + :15672`。
 
-![消息重试机制](E:\screenshot\fanijATZxIkuwG6.png)
+![消息重试机制](https://s2.loli.net/2024/11/04/Tezj9qXiHxI5vKG.png)
 
 
 
