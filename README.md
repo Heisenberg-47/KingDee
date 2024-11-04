@@ -155,27 +155,27 @@ public class DemoConsumer implements MessageConsumer {
 
 ### MQ配置文件
 
-![MQ配置文件](E:\screenshot\image-20241104144014469.png)
+![MQ配置文件](https://s2.loli.net/2024/11/04/bR4wZ1XvfUBaqlT.png)
 
 ### 消息发送成功
 
-![消息发送成功](E:\screenshot\image-20241104144921913.png)
+![消息发送成功](https://s2.loli.net/2024/11/04/iur3Th9PXobMG6Y.png)
 
 这张截图显示了消息成功发送到MQ的日志输出。`log.info("mq发送消息。")`表明消息已经成功发送，没有出现异常。
 
 ### 消息消费成功
 
-![消息消费成功](E:\screenshot\image-20241104145238778.png)
+![消息消费成功](https://s2.loli.net/2024/11/04/NTdMICx6Z1PWv2f.png)
 
 在这张截图中，您可以看到消费者成功接收并处理了消息。`log.info("DemoConsumer onMessage demo 开始消费。")`对应单据已审核，表明消息已经被正确消费。
 
 ### 消息重试机制
 
-![消息重试机制](E:\screenshot\image-20241104150746798.png)
+![消息重试机制](https://s2.loli.net/2024/11/04/fanijATZxIkuwG6.png)
 
 生产者发送一个异常过去。
 
-![消息重试成功](E:\screenshot\image-20241104151637241.png)
+![消息重试成功](https://s2.loli.net/2024/11/04/XJHPtVqCmiTzpyG.png)
 
 ### 死信队列配置
 
@@ -206,7 +206,7 @@ public class DemoConsumer implements MessageConsumer {
 
 确保您的资源文件放在这个目录下，IDE将会自动将这些资源文件包含在构建的输出中。
 
-![设置resources目录](E:\screenshot\image-20241104152930508.png)
+![设置resources目录](https://s2.loli.net/2024/11/04/IN9oFuiqJYOP4wj.png)
 
 ### RabbitMQ地址
 
@@ -214,7 +214,7 @@ public class DemoConsumer implements MessageConsumer {
 
 **A:** RabbitMQ地址为`ip + :15672`。
 
-![RabbitMQ地址](E:\screenshot\image-20241104153250505.png)
+![RabbitMQ地址](https://s2.loli.net/2024/11/04/xrAb3SptuCUg4BG.png)
 
 ---
 
