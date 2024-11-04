@@ -175,7 +175,7 @@ public class DemoConsumer implements MessageConsumer {
 
 生产者发送一个异常过去。
 
-![设置resources目录](https://s2.loli.net/2024/11/04/AjWq5eN8BE1OUyZ.png)
+![设置resources目录](https://s2.loli.net/2024/11/04/Tezj9qXiHxI5vKG.png)
 
 ### 死信队列配置
 
@@ -214,7 +214,7 @@ public class DemoConsumer implements MessageConsumer {
 
 **A:** RabbitMQ地址为`ip + :15672`。
 
-![消息重试机制](https://s2.loli.net/2024/11/04/Tezj9qXiHxI5vKG.png)
+![消息重试机制](https://s2.loli.net/2024/11/04/AjWq5eN8BE1OUyZ.png)
 
 
 
