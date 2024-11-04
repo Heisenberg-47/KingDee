@@ -171,11 +171,11 @@ public class DemoConsumer implements MessageConsumer {
 
 ### 消息重试机制
 
-![消息重试机制](https://s2.loli.net/2024/11/04/fanijATZxIkuwG6.png)
+![消息重试成功](E:\screenshot\XJHPtVqCmiTzpyG.png)
 
 生产者发送一个异常过去。
 
-![消息重试成功](https://s2.loli.net/2024/11/04/XJHPtVqCmiTzpyG.png)
+![设置resources目录](E:\screenshot\IN9oFuiqJYOP4wj-1730711232516-3.png)
 
 ### 死信队列配置
 
@@ -206,7 +206,7 @@ public class DemoConsumer implements MessageConsumer {
 
 确保您的资源文件放在这个目录下，IDE将会自动将这些资源文件包含在构建的输出中。
 
-![设置resources目录](https://s2.loli.net/2024/11/04/IN9oFuiqJYOP4wj.png)
+![RabbitMQ地址](E:\screenshot\xrAb3SptuCUg4BG.png)
 
 ### RabbitMQ地址
 
@@ -214,8 +214,9 @@ public class DemoConsumer implements MessageConsumer {
 
 **A:** RabbitMQ地址为`ip + :15672`。
 
-![RabbitMQ地址](https://s2.loli.net/2024/11/04/xrAb3SptuCUg4BG.png)
+![消息重试机制](E:\screenshot\fanijATZxIkuwG6.png)
+
+
 
 ---
 
-以上是对苍穹MQ使用文档的优化版，包括了更清晰的结构、详细的说明和适当的排版，以提高文档的可读性和实用性。希望这能帮助您更好地理解和使用苍穹MQ。
